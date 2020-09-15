@@ -1,0 +1,71 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Account</title>
+        <link rel="icon" type="image/ico" href="../files/favicon.ico">
+        <link rel="stylesheet" href="../css/account.css">
+        <link rel="stylesheet" href="../css/fonts.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="../js/account.js"></script>
+    </head>
+    <body onload="grabData()">
+        <div class="header">
+            <a class="bold">Account</a>
+            <div class="header-right">
+                <a href="/">Home</a>
+                <a href="/download">Download</a>
+                <a href="/id/api/kill?redirect=true">Logout</a>
+            </div>
+        </div>
+    
+        <div class="center">
+            <a style="font-size: 18px;">Account ID: </a>
+            <a id="accountid" style="font-size: 15px;"></a>
+            <br>
+            <a style="font-size: 18px;">Username: </a>
+            <a id="username" style="font-size: 15px;"></a>
+            <br>
+            <br>
+            <form id="lobbyForm">
+                <a class="title">Lobby</a><br>
+                <a>V-Bucks</a><br>
+                <a class="description">Amount of V-Bucks.</a><br>
+                <input type="number" id="vbucks" name="vbucks" placeholder="USER_ACCOUNT_VBUCKS"> 
+                <a>Level</a><br>
+                <a class="description">Season and Battle Pass level.</a><br>
+                <input type="number" id="level" name="level" placeholder="USER_ACCOUNT_LEVEL">
+                <a>Allow Gifting</a><br>
+                <a class="description">Lets user be gifted or not.</a><br>
+                <select name="allowgifts" id="allowgifts">
+                    <option id="yes" value="yes">Yes</option>
+                    <option id="no" value="no">No</option>
+                </select>      
+                <a>Clear Gifts</a><br>
+                <a class="description">Removes all pending gifts.</a><br>         
+                <button type="button" onclick="removeGifts(); return false;">Clear Gifts</button>
+                <br>
+                <a id="updated-account" class="title" style="font-size: 20px;"></a><br>
+                <button type="submit">Update</button>
+            </form>
+            <br>
+            <form id="giftForm">
+                <a class="title">Gifting</a><br>
+                <a>User</a><br>
+                <a class="description">Gift recievers's username.</a><br>
+                <input type="text" id="gift_username" name="gift_username" placeholder="slush"> 
+                <a>Gift Box</a><br>
+                <a class="description">Style of gift.</a><br>
+                <select id="giftbox" name="giftbox">
+                </select>                
+                <a>Item</a><br>
+                <a class="description">Name of the item to gift.</a><br>
+                <input type="text" id="gift_item" name="gift_item" placeholder="Recruit">                 
+                <a>Message</a><br>
+                <a class="description">(Optional) Message that is given with the gift.</a><br>
+                <input type="text" id="gift_message" name="gift_message" placeholder="Hope you enjoy this gift; good luck, have fun!"> 
+                <a id="gift-notice" class="title" style="font-size: 20px;">Updated Account!</a><br>
+                <button type="submit">Gift</button>
+            </form>
+        </div>
+    </body>
+</html>

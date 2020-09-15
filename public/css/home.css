@@ -1,0 +1,28 @@
+.middle {
+    font-size: 30px;
+    text-align: center;
+}
+
+.link {
+    text-decoration: underline;
+    font-family: "SF Text Bold";
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    background-image: url("../files/gradient.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.footer {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: url("../files/gradient.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
