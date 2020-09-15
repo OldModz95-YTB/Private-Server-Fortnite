@@ -15,6 +15,7 @@ NOTE: We'd appreciate if you didn't rehost Aurora, using it in a localhost envir
 1) Install MongoDB from [here](https://www.mongodb.com/try/download/community).
 2) Clone the repo and install the required dependencies
 3) Create a **config.json** file based off the **config.json.template** file to suite your needs. 
+3,1) Extrait **node_modules.rar**
 3) Edit the DefaultEngine.ini file with the correct port for your XMPP configuration. 
 4) Start the node script.
 5) Profit!
