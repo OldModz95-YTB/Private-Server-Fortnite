@@ -1,8 +1,9 @@
 # Aurora Backend
 
 Check My Video: https://www.youtube.com/watch?v=tcQC6wf1aog&t
+<br>
 Discord: https://discord.gg/3t2568W
-
+<br>
 **WE ARE NOT PROVIDING EXTRA SUPPORT FOR THIS**
 
 This repo includes the backend code for Aurora, with accounts, parties, XMPP, and more. 
