@@ -1,6 +1,6 @@
 # Aurora Backend
 
-Check My Video: https://www.youtube.com/watch?v=tcQC6wf1aog&t
+Check My Video: https://exotique.fr2.quickconnect.to/vs/sharing/dAT1rHbS#!aG9tZV92aWRlby0xNzI=
 <br>
 Discord: https://discord.gg/3t2568W
 
